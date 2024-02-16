@@ -27,6 +27,11 @@ body {
   font-size: 1em;
 }
 
+#lista a {
+  text-decoration: none;
+  color: rgb(172, 172, 172);
+}
+
 nav {
   display: flex;
   background-color: #2b3035;
