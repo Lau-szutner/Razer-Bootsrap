@@ -11,7 +11,23 @@ body {
   box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+#navBar {
+  background-color: black !important;
+}
 .listaDetalles {
   list-style: none;
   padding: 0%;
+}
+
+.txt-color-1 {
+  color: white;
+}
+
+.custom-hover:hover {
+  color: #45d62b;
+}
+
+#tituloNav {
+  color: #45d62b;
+  text-decoration: none;
 }
