@@ -1,5 +1,6 @@
 body {
-  background-color: #cacaca;
+  background-color: #282828;
+  color: white;
 }
 .div-producto {
   padding-top: 5em !important;
@@ -24,10 +25,18 @@ body {
 }
 
 .custom-hover:hover {
-  color: #45d62b;
+  color: #45d62b !important;
 }
 
 #tituloNav {
-  color: #45d62b;
+  color: #45d62b !important;
   text-decoration: none;
+}
+
+.titulares {
+  color: #45d62b !important;
+}
+
+.alto {
+  height: 500px;
 }
