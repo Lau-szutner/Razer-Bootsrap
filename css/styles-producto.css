@@ -2,27 +2,42 @@ body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.custom-hover:hover {
+  color: #45d62b !important;
+}
+main p {
+  color: black;
+}
+
+#marca {
+  color: #45d62b !important;
+  text-decoration: none;
+  font-size: 1.7em !important;
+}
+
 #logo {
   display: flex;
   align-items: center;
-  gap: 10px;
-}
 
-#logo a {
-  color: green;
-  text-decoration: none;
-  font-size: 2em;
+  gap: 10px;
 }
 
 #logo img {
   height: 70px;
+  margin: 10px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 #lista {
   color: rgb(172, 172, 172);
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: x;
   align-items: center;
   font-size: 1em;
 }
@@ -34,12 +49,12 @@ body {
 
 nav {
   display: flex;
-  background-color: #2b3035;
+  background-color: #000000;
   justify-content: space-between;
   width: 100vw;
   padding: 10px;
   box-sizing: border-box;
-  height: 80px;
+  height: 90px;
 }
 
 #producto img {
@@ -69,8 +84,10 @@ main {
 }
 
 body {
-  background-color: rgb(207, 207, 207);
+  background-color: #282828;
+  color: white;
 }
+
 h1 {
   font-size: 1.5em;
 }
@@ -97,6 +114,41 @@ button {
   padding: 10px 200px;
 }
 
+#contenedor {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  align-items: flex-start;
+  margin: 100px 0px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+div ul {
+  list-style: none;
+  color: white;
+}
+
+div h2 {
+  margin: 0px;
+  color: white;
+  padding: 0px;
+}
+
+div li {
+  margin: 0px;
+  padding: 10px;
+}
+
+#autor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
 footer {
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
