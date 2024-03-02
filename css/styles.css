@@ -45,3 +45,41 @@ body {
   color: #45d62b;
   background-color: #45d62b;
 }
+
+#logo-razer {
+  background-image: url(../imagenes/logo.png);
+  height: 65px;
+  width: 65px;
+  background-size: cover; /* Ajusta según tus necesidades */
+  background-position: center; /* Ajusta según tus necesidades */
+}
+
+#facebook {
+  background-image: url(../imagenes/iconografia/facebook.png);
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  background-position: center;
+}
+
+#x {
+  background: url(../imagenes/iconografia/X.png);
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  background-position: center;
+}
+
+#instagram {
+  background: url(../imagenes/iconografia/instagram.png);
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  background-position: center;
+}
+
+.compras:hover {
+  border: 1px solid #45d62b;
+  background-color: #45d62b;
+  color: black;
+}
