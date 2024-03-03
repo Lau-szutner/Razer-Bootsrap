@@ -104,3 +104,8 @@ body {
   width: 100%;
   height: auto;
 }
+
+.compras-pro:hover {
+  background-color: #45d62b;
+  color: black;
+}
