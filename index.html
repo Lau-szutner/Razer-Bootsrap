@@ -78,14 +78,23 @@
             class="row flex-lg-row-reverse align-items-center g-5 pt-5 justify-content-center"
           >
             <div class="col-10 col-lg-6">
-              <img
-                src="imagenes/razer-blade-15-oled-1.webp"
-                class="d-block mx-lg-auto img-fluid rounded-2"
-                alt="Razer blade de 16 pulgadas"
-                width="700"
-                height="500"
-                loading="lazy"
-              />
+              <picture>
+                <source
+                  class="fotos"
+                  media="(min-width: 900px)"
+                  srcset="imagenes/Razer-blade-main/razer-blade-l.jpg"
+                />
+                <source
+                  class="fotos"
+                  media="(max-width: 900px)"
+                  srcset="imagenes/Razer-blade-main/razer-blade-m.jpg"
+                />
+                <img
+                  class="fotos"
+                  src="imagenes/Razer-blade-main/razer-blade-l.jpg"
+                  alt="Razer blade de 16 pulgadas sobre un escritorio gris"
+                />
+              </picture>
             </div>
             <div class="col-lg-6">
               <h2 class="display-5 text-body-emphasis lh-1 mb-3 titulares">
@@ -116,11 +125,31 @@
         <h2 class="text-center fs-1">Productos</h2>
         <div class="row justify-content-center">
           <div class="card p-0 mx-3 mt-4 col-11 col-lg-3 col-md-5">
-            <img
-              src="imagenes/Productos/razer-blade.jpeg"
-              class="card-img-top"
-              alt="Razer blade"
-            />
+            <picture class="card-img-top">
+              <source
+                class="fotos"
+                media="(min-width: 900px)"
+                srcset="imagenes/Productos/razer-blade-l.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 500px) and (max-width: 899px)"
+                srcset="imagenes/Productos/razer-blade-m.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 250px) and (max-width: 499px)"
+                srcset="imagenes/Productos/razer-blade-s.jpeg"
+              />
+
+              <img
+                class="fotos"
+                src="imagenes/Productos/razer-blade-l.jpeg"
+                alt="blade de 16 pulgadas en primer plano"
+              />
+            </picture>
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">Razer blade 16</h5>
               <p class="card-text">
@@ -140,11 +169,31 @@
           </div>
 
           <div class="card p-0 mx-3 mt-4 col-11 col-lg-3 col-md-5">
-            <img
-              src="imagenes/Productos/razer-huntsman.webp"
-              class="card-img-top"
-              alt="Teclado Razer Huntsman"
-            />
+            <picture>
+              <source
+                class="fotos"
+                media="(min-width: 900px)"
+                srcset="imagenes/Productos/razer-huntsman-l.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 500px) and (max-width: 899px)"
+                srcset="imagenes/Productos/razer-huntsman-m.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 250px) and (max-width: 499px)"
+                srcset="imagenes/Productos/razer-huntsman-s.jpeg"
+              />
+
+              <img
+                class="fotos"
+                src="imagenes/Productos/razer-huntsman-l.jpg"
+                alt="Teclado Razer Huntsman sobre un escritorio negro"
+              />
+            </picture>
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">Razer Hutsman</h5>
               <p class="card-text">
@@ -163,11 +212,32 @@
           </div>
 
           <div class="card p-0 mx-3 mt-4 col-11 col-lg-3 col-md-5">
-            <img
-              src="imagenes/Productos/razer-blackshark.jpg"
-              class="card-img-top"
-              alt="Auriculares Razer Blackshark"
-            />
+            <picture>
+              <source
+                class="fotos"
+                media="(min-width: 900px)"
+                srcset="imagenes/Productos/razer-blackshark-l.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 500px) and (max-width: 899px)"
+                srcset="imagenes/Productos/razer-blackshark-m.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 250px) and (max-width: 499px)"
+                srcset="imagenes/Productos/razer-blackshark-s.jpeg"
+              />
+
+              <img
+                class="fotos"
+                src="imagenes/Productos/razer-blackshark-l.jpeg"
+                alt="Auriculares Razer blackshark sobre un escritorio"
+              />
+            </picture>
+
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">Razer Blackshark</h5>
               <p class="card-text">
@@ -185,11 +255,31 @@
           </div>
 
           <div class="card p-0 mx-3 mt-4 col-11 col-lg-3 col-md-5">
-            <img
-              src="imagenes/Productos/razer-gamer-room.webp"
-              class="card-img-top"
-              alt="Sala de juegos Razer"
-            />
+            <picture>
+              <source
+                class="fotos"
+                media="(min-width: 900px)"
+                srcset="imagenes/Productos/razer-gamer-room-l.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 500px) and (max-width: 899px)"
+                srcset="imagenes/Productos/razer-gamer-room-m.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 250px) and (max-width: 499px)"
+                srcset="imagenes/Productos/razer-gamer-room-s.jpeg"
+              />
+
+              <img
+                class="fotos"
+                src="imagenes/Productos/razer-gamer-room-l.jpeg"
+                alt="Habitacion Razer con varios productos"
+              />
+            </picture>
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">RAZER BLADE 14</h5>
               <p class="card-text">
@@ -209,11 +299,31 @@
           </div>
 
           <div class="card p-0 mx-3 mt-4 col-11 col-lg-3 col-md-5">
-            <img
-              src="imagenes/Productos/razer-huntsman-mini.webp"
-              class="card-img-top"
-              alt="Teclado Razer Huntsman Mini"
-            />
+            <picture>
+              <source
+                class="fotos"
+                media="(min-width: 900px)"
+                srcset="imagenes/Productos/razer-huntsman-l.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 500px) and (max-width: 899px)"
+                srcset="imagenes/Productos/razer-huntsman-m.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 250px) and (max-width: 499px)"
+                srcset="imagenes/Productos/razer-huntsman-s.jpeg"
+              />
+
+              <img
+                class="fotos"
+                src="imagenes/Productos/razer-huntsman-mini-l.jpeg"
+                alt="Teclado Razer version mini huntsman"
+              />
+            </picture>
             <div class="card-body">
               <h5 class="card-title">Razer Hutsman mini</h5>
               <p class="card-text">
@@ -232,11 +342,31 @@
           </div>
 
           <div class="card p-0 mx-3 mt-4 col-11 col-lg-3 col-md-5">
-            <img
-              src="imagenes/Productos/razer-blackshark-v2.jpg"
-              class="card-img-top"
-              alt="Auriculares Razer Blackshark v2"
-            />
+            <picture>
+              <source
+                class="fotos"
+                media="(min-width: 900px)"
+                srcset="imagenes/Productos/razer-blackshark-v2-l.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 500px) and (max-width: 899px)"
+                srcset="imagenes/Productos/razer-blackshark-v2-m.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 250px) and (max-width: 499px)"
+                srcset="imagenes/Productos/razer-blackshark-v2-s.jpeg"
+              />
+
+              <img
+                class="fotos"
+                src="imagenes/Productos/razer-blackshark-v2-l.jpeg"
+                alt="Auriculares Razer Blackshark sobre un fondo verde"
+              />
+            </picture>
             <div class="card-body">
               <h5 class="card-title">RAZER BLACKSHARK V2</h5>
               <p class="card-text">
@@ -315,16 +445,35 @@
               </div>
             </div>
           </div>
-
-          <div>
-            <img
-              src="imagenes/razer-blade-15.jpg"
-              alt="Razer blade de 15 pulgadas"
-              class="container"
-            />
-          </div>
         </div>
       </section>
+
+      <picture>
+        <source
+          class="fotos"
+          media="(min-width: 900px)"
+          srcset="imagenes/razer-blade-15-xl.jpg"
+        />
+
+        <source
+          class="fotos"
+          media="(min-width: 500px) and (max-width: 899px)"
+          srcset="imagenes/razer-blade-15-m.jpeg"
+        />
+
+        <source
+          class="fotos"
+          media="(min-width: 250px) and (max-width: 499px)"
+          srcset="imagenes/razer-blade-15-s.jpeg"
+        />
+
+        <img
+          class="fotos"
+          src="imagenes/Productos/razer-blade-15-l.jpeg"
+          alt="Descripción de la imagen"
+        />
+      </picture>
+
       <!-- Modelo de producto -->
       <section id="componentes">
         <h2 class="text-center my-5 titulares fs-1">Componentes</h2>
@@ -334,25 +483,85 @@
           <div id="carousel" class="carousel slide col-10 col-lg-12">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img
-                  src="imagenes/banners/banner-2.png"
-                  class="d-block w-100"
-                  alt="Razer Blade de 15 pulgadas"
-                />
+                <picture>
+                  <source
+                    class="fotos"
+                    media="(min-width: 900px)"
+                    srcset="imagenes/banners/banner-1-l.png"
+                  />
+
+                  <source
+                    class="fotos"
+                    media="(min-width: 500px) and (max-width: 899px)"
+                    srcset="imagenes/banners/banner-1-m.png"
+                  />
+
+                  <source
+                    class="fotos"
+                    media="(min-width: 250px) and (max-width: 499px)"
+                    srcset="imagenes/banners/banner-1-s.png"
+                  />
+
+                  <img
+                    class="fotos"
+                    src="imagenes/banners/banner-1-l.png"
+                    alt="Descripción de la imagen"
+                  />
+                </picture>
               </div>
               <div class="carousel-item">
-                <img
-                  src="imagenes/banners/banner-2.jpg"
-                  class="d-block w-100"
-                  alt="Razer pantalla de 24 pulgadas"
-                />
+                <picture>
+                  <source
+                    class="fotos"
+                    media="(min-width: 900px)"
+                    srcset="imagenes/banners/banner-2-l.jpg"
+                  />
+
+                  <source
+                    class="fotos"
+                    media="(min-width: 500px) and (max-width: 899px)"
+                    srcset="imagenes/banners/banner-2-m.jpg"
+                  />
+
+                  <source
+                    class="fotos"
+                    media="(min-width: 250px) and (max-width: 499px)"
+                    srcset="imagenes/banners/banner-2-s.jpg"
+                  />
+
+                  <img
+                    class="fotos"
+                    src="imagenes/banners/banner-2-l.png"
+                    alt="Descripción de la imagen"
+                  />
+                </picture>
               </div>
               <div class="carousel-item">
-                <img
-                  src="imagenes/banners/banner-3.png"
-                  class="d-block w-100"
-                  alt="Razer sala de juegos"
-                />
+                <picture>
+                  <source
+                    class="fotos"
+                    media="(min-width: 900px)"
+                    srcset="imagenes/banners/banner-3-l.jpeg"
+                  />
+
+                  <source
+                    class="fotos"
+                    media="(min-width: 500px) and (max-width: 899px)"
+                    srcset="imagenes/banners/banner-3-m.jpg"
+                  />
+
+                  <source
+                    class="fotos"
+                    media="(min-width: 250px) and (max-width: 499px)"
+                    srcset="imagenes/banners/banner-3-s.jpg"
+                  />
+
+                  <img
+                    class="fotos"
+                    src="imagenes/banners/banner-3-l.png"
+                    alt="Descripción de la imagen"
+                  />
+                </picture>
               </div>
             </div>
 
@@ -636,7 +845,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h2 class="modal-title fs-5" id="modalDatos">
+            <h2 class="modal-title fs-5 text-dark">
               Lautaro Fernandez Szutner
             </h2>
             <button

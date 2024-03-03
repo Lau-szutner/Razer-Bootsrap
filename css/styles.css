@@ -49,8 +49,8 @@ body {
   background-image: url(../imagenes/logo.png);
   height: 65px;
   width: 65px;
-  background-size: cover; /* Ajusta según tus necesidades */
-  background-position: center; /* Ajusta según tus necesidades */
+  background-size: cover;
+  background-position: center;
 }
 
 #facebook {
@@ -98,4 +98,9 @@ body {
 
 #contactos {
   padding-top: 100px !important;
+}
+
+.fotos {
+  width: 100%;
+  height: auto;
 }
