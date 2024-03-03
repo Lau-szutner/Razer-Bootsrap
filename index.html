@@ -34,7 +34,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <a id="oooo" class="navbar-toggler-icon"></a>
+            <span class="navbar-toggler-icon" id="toggler"></span>
           </button>
 
           <div
@@ -73,9 +73,9 @@
 
     <main>
       <section id="home">
-        <div class="container col-xxl-10 px-4 py-5">
+        <div class="container col-xxl-10 px-5 py-5 mb-0 pb-0">
           <div
-            class="row flex-lg-row-reverse align-items-center g-5 py-5 justify-content-center"
+            class="row flex-lg-row-reverse align-items-center g-5 pt-5 justify-content-center"
           >
             <div class="col-10 col-lg-6">
               <img
@@ -112,7 +112,7 @@
       </section>
 
       <!-- Productos -->
-      <section class="container col-xxl-10 mt-5 titulares">
+      <section id="productos" class="container col-xxl-10 mt-5 titulares">
         <h2 class="text-center fs-1">Productos</h2>
         <div class="row justify-content-center">
           <div class="card p-0 mx-3 mt-4 col-11 col-lg-3 col-md-5">
@@ -256,7 +256,7 @@
       </section>
 
       <section>
-        <div class="container px-4 py-5" id="hanging-icons">
+        <div class="container px-4 pt-5 pb-0" id="hanging-icons">
           <h2
             class="pb-2 border-bottom d-flex justify-content-center fs-1 titulares"
           >
@@ -499,14 +499,12 @@
             ></textarea>
           </div>
 
-          <button type="submit" class="btn btn-outline-dark w-100">
-            Enviar
-          </button>
+          <button type="submit" class="btn btn-light w-100">Enviar</button>
         </form>
       </section>
     </main>
 
-    <div class="py-5 container border-top mt-5">
+    <footer class="py-5 container border-top mt-5">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
           <h5>Compra</h5>
@@ -625,7 +623,7 @@
       >
         <p>© 2023 Razer, Inc. All rights reserved.</p>
       </div>
-    </div>
+    </footer>
 
     <!-- Modal -->
     <div

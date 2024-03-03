@@ -41,8 +41,7 @@ body {
   height: 500px;
 }
 
-#oooo {
-  color: #45d62b;
+#toggler {
   background-color: #45d62b;
 }
 
@@ -82,4 +81,21 @@ body {
   border: 1px solid #45d62b;
   background-color: #45d62b;
   color: black;
+}
+
+#productos {
+  padding-top: 100px;
+  margin-top: 0px !important;
+}
+
+#componentes {
+  padding-top: 100px;
+}
+
+#componentes h2 {
+  margin-top: 0px !important;
+}
+
+#contactos {
+  padding-top: 100px !important;
 }
