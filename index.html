@@ -18,10 +18,7 @@
   </head>
   <body>
     <header>
-      <nav
-        class="navbar navbar-expand-lg bg-body-tertiary fixed-top"
-        id="navBar"
-      >
+      <nav class="navbar navbar-expand-lg fixed-top" id="navBar">
         <div class="container-fluid">
           <a id="logo-razer" class="navbar-brand" href="index.html"> </a>
           <a class="navbar-brand fs-3" href="#" id="tituloNav">RΛZΞR</a>
@@ -31,6 +28,7 @@
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
+            4
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
@@ -78,7 +76,7 @@
           <div
             class="row flex-lg-row-reverse align-items-center g-5 pt-5 justify-content-center"
           >
-            <div class="col-10 col-lg-6">
+            <div class="col-lg-6">
               <picture>
                 <source
                   class="fotos"
@@ -204,7 +202,7 @@
               </p>
 
               <div class="mt-auto">
-                <p class="card-text text-success">Precio: 20.000</p>
+                <p class="card-text text-success">Precio: 7.000</p>
                 <a
                   href="producto-2.html"
                   class="compras btn btn-secondary w-100"
@@ -249,7 +247,7 @@
                 profesionales exigentes.
               </p>
               <div class="mt-auto">
-                <p class="card-text text-success">Precio: 20.000</p>
+                <p class="card-text text-success">Precio: 15.000</p>
                 <a
                   href="producto-3.html"
                   class="compras btn btn-secondary w-100"
@@ -286,14 +284,14 @@
               />
             </picture>
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">RAZER BLADE 14</h5>
+              <h5 class="card-title">Razer Blade 14</h5>
               <p class="card-text">
                 Una laptop gaming de alto rendimiento y diseño compacto ideal
                 para jugadores y creadores de contenido que buscan potencia en
                 un formato portátil.
               </p>
               <div class="mt-auto">
-                <p class="card-text text-success">Precio: 20.000</p>
+                <p class="card-text text-success">Precio: 35.000</p>
                 <a
                   href="producto-4.html"
                   class="compras btn btn-secondary w-100 odo"
@@ -338,7 +336,7 @@
               </p>
 
               <div class="mt-auto">
-                <p class="card-text text-success">Precio: 20.000</p>
+                <p class="card-text text-success">Precio: 5.000</p>
                 <a
                   href="producto-5.html"
                   class="compras btn btn-secondary w-100"
@@ -375,14 +373,14 @@
               />
             </picture>
             <div class="card-body">
-              <h5 class="card-title">RAZER BLACKSHARK V2</h5>
+              <h5 class="card-title">Razer Blackshark v2</h5>
               <p class="card-text">
                 Un auricular gaming de alta calidad que ofrece una experiencia
                 de audio inmersiva para jugadores exigentes que buscan comodidad
                 y rendimiento excepcional durante sus sesiones de juego.
               </p>
               <div class="mt-auto">
-                <p class="card-text text-success">Precio: 20.000</p>
+                <p class="card-text text-success">Precio: 19.000</p>
                 <a
                   href="producto-6.html"
                   class="compras btn btn-secondary w-100"
@@ -457,147 +455,115 @@
         </div>
       </section>
 
-      <picture>
-        <source
-          class="fotos"
-          media="(min-width: 900px)"
-          srcset="imagenes/razer-blade-15-xl.jpg"
-        />
+      <!-- Carousel -->
+      <div id="carousel" class="carousel slide col-lg-12">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <picture>
+              <source
+                class="fotos"
+                media="(min-width: 900px)"
+                srcset="imagenes/banners/banner-1-l.png"
+              />
 
-        <source
-          class="fotos"
-          media="(min-width: 500px) and (max-width: 899px)"
-          srcset="imagenes/razer-blade-15-m.jpeg"
-        />
+              <source
+                class="fotos"
+                media="(min-width: 500px) and (max-width: 899px)"
+                srcset="imagenes/banners/banner-1-m.png"
+              />
 
-        <source
-          class="fotos"
-          media="(min-width: 250px) and (max-width: 499px)"
-          srcset="imagenes/razer-blade-15-s.jpeg"
-        />
+              <source
+                class="fotos"
+                media="(min-width: 250px) and (max-width: 499px)"
+                srcset="imagenes/banners/banner-1-s.png"
+              />
 
-        <img
-          class="fotos"
-          src="imagenes/Productos/razer-blade-15-l.jpeg"
-          alt="Descripción de la imagen"
-        />
-      </picture>
+              <img
+                class="fotos"
+                src="imagenes/banners/banner-1-l.png"
+                alt="Descripción de la imagen"
+              />
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source
+                class="fotos"
+                media="(min-width: 900px)"
+                srcset="imagenes/banners/banner-2-l.jpg"
+              />
 
-      <!-- Modelo de producto -->
+              <source
+                class="fotos"
+                media="(min-width: 500px) and (max-width: 899px)"
+                srcset="imagenes/banners/banner-2-m.jpg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 250px) and (max-width: 499px)"
+                srcset="imagenes/banners/banner-2-s.jpg"
+              />
+
+              <img
+                class="fotos"
+                src="imagenes/banners/banner-2-l.png"
+                alt="Descripción de la imagen"
+              />
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source
+                class="fotos"
+                media="(min-width: 900px)"
+                srcset="imagenes/banners/banner-3-l.jpeg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 500px) and (max-width: 899px)"
+                srcset="imagenes/banners/banner-3-m.jpg"
+              />
+
+              <source
+                class="fotos"
+                media="(min-width: 250px) and (max-width: 499px)"
+                srcset="imagenes/banners/banner-3-s.jpg"
+              />
+
+              <img
+                class="fotos"
+                src="imagenes/banners/banner-3-l.png"
+                alt="Descripción de la imagen"
+              />
+            </picture>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
       <section id="componentes">
         <h2 class="text-center my-5 titulares fs-1">Componentes</h2>
-        <div
-          class="container d-flex gap-5 flex-column flex-lg-column align-items-center"
-        >
-          <div id="carousel" class="carousel slide col-10 col-lg-12">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <picture>
-                  <source
-                    class="fotos"
-                    media="(min-width: 900px)"
-                    srcset="imagenes/banners/banner-1-l.png"
-                  />
-
-                  <source
-                    class="fotos"
-                    media="(min-width: 500px) and (max-width: 899px)"
-                    srcset="imagenes/banners/banner-1-m.png"
-                  />
-
-                  <source
-                    class="fotos"
-                    media="(min-width: 250px) and (max-width: 499px)"
-                    srcset="imagenes/banners/banner-1-s.png"
-                  />
-
-                  <img
-                    class="fotos"
-                    src="imagenes/banners/banner-1-l.png"
-                    alt="Descripción de la imagen"
-                  />
-                </picture>
-              </div>
-              <div class="carousel-item">
-                <picture>
-                  <source
-                    class="fotos"
-                    media="(min-width: 900px)"
-                    srcset="imagenes/banners/banner-2-l.jpg"
-                  />
-
-                  <source
-                    class="fotos"
-                    media="(min-width: 500px) and (max-width: 899px)"
-                    srcset="imagenes/banners/banner-2-m.jpg"
-                  />
-
-                  <source
-                    class="fotos"
-                    media="(min-width: 250px) and (max-width: 499px)"
-                    srcset="imagenes/banners/banner-2-s.jpg"
-                  />
-
-                  <img
-                    class="fotos"
-                    src="imagenes/banners/banner-2-l.png"
-                    alt="Descripción de la imagen"
-                  />
-                </picture>
-              </div>
-              <div class="carousel-item">
-                <picture>
-                  <source
-                    class="fotos"
-                    media="(min-width: 900px)"
-                    srcset="imagenes/banners/banner-3-l.jpeg"
-                  />
-
-                  <source
-                    class="fotos"
-                    media="(min-width: 500px) and (max-width: 899px)"
-                    srcset="imagenes/banners/banner-3-m.jpg"
-                  />
-
-                  <source
-                    class="fotos"
-                    media="(min-width: 250px) and (max-width: 499px)"
-                    srcset="imagenes/banners/banner-3-s.jpg"
-                  />
-
-                  <img
-                    class="fotos"
-                    src="imagenes/banners/banner-3-l.png"
-                    alt="Descripción de la imagen"
-                  />
-                </picture>
-              </div>
-            </div>
-
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carousel"
-              data-bs-slide="prev"
-            >
-              <span class="carousel-control-prev-icon" aria-hidden="true">
-              </span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carousel"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
+        <div class="container d-flex gap-5 flex-column align-items-center">
           <div class="col-10 col-lg-10">
             <ul class="listaDetalles">
               <li>

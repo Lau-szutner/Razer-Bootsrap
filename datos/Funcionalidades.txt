@@ -1,0 +1,17 @@
+Navbar: El componente de la barra de navegación lo creé basándome en uno de los ejemplos sobre el uso de "toggler" en esta parte. De igual modo, la configuré para que sea responsive cuando el ancho del dispositivo es pequeño mostrara un menu hamburguesa o mostrara mas contenido una vez llegado al breakpoint lg (navbar-expand-lg).También utilicé "fixed" para fijar la barra de navegación en la parte superior y que se superponga a cualquier elemento.
+
+Main:
+
+Razer Blade y presentación: Modifiqué el componente de "Heroes" (héroe alineado a la izquierda y responsivo con imagen) para tener una imagen a un lado y una presentación al otro. Los elementos están organizados en una fila (row), y con "flex-lg-row-reverse", definí que cuando el ancho llegue a ≥768px, los elementos se intercambien de lado. También están justificados y centrados mediante clases. Ambos elementos se colocan en una fila, ya que a partir del breakpoint lg, se les asignan 6 columnas a cada uno, pudiendo completar las 12 columnas juntos. Si el tamaño es menor a lg, se apilan uno encima del otro, ya que toman 12 columnas por defecto.
+
+Productos: Utilizando los componentes de tarjetas y el sistema de grillas, pude crear este catálogo que va en fila. Por medio del uso de "col-X", generé una grilla. Cada tarjeta ocupará por defecto 11 columnas, una vez llegado a "md" ocuparán 5, y en "lg" 3 cada una. El motivo de no completar las 12 columnas es dejar un pequeño espacio entre ellas o el margen, el cual uso con "mx-3" y "mt-4".
+
+Cualidades: Modifiqué el componente "Columns with icons", definiendo "row" para juntar los elementos en fila. Pero especificé "row-cols-lg-3", lo cual creará en "lg" 3 columnas separadas para cada elemento, y con "row-cols-1" por defecto se apilan una sobre la otra. Posteriormente, todo el contenido de los elementos está alineado y encapsulado en contenedores.
+
+Carousel: El componente carousel ocupará 12 columnas por defecto, todo el tiempo.
+
+Componentes: Mediante "d-flex" y "flex-column", los elementos se comportarán como elementos flex y se apilarán en columnas todo el tiempo.
+
+Contactos: La sección de contactos ocupará por defecto 10 columnas y 6 en "lg" para que no se expanda tanto y no dificulte la escritura y la visualización. Los campos "Email" y "Teléfono" tienen un breakpoint. Por defecto son elementos "flex-column", por lo que se apilan entre sí. Una vez llegado a "lg", estos se juntan en una misma fila mediante "flex-lg-row".
+
+Footer: El pie de página funciona de manera similar al catálogo de imágenes, ya que se apilan en columnas pero utilizando el "flex row" y las grillas de Bootstrap. Por defecto, ocupan 6 columnas cada una. Llegado a "md", ocuparán 2 cada una y formarán una grilla más amplia.

@@ -4,7 +4,4 @@
  comisión: DWT2AV
  Turno: Tarde
 
- Alumno: Nahuel Miño Nahuel Benjamín
- cuatrimestre: 2do de 2023
- comisión: DWT2AV
- Turno: Tarde
+
