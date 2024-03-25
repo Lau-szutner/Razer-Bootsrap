@@ -14,5 +14,3 @@ Este proyecto es un sitio web de comercio electrónico desarrollado en Bootstrap
 ###  Autor:
 Lautaro Fernandez Szutner
 
-### Licencia
-Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
